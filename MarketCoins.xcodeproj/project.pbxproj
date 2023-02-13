@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A03CF3CC299ACB0E0056359F /* CoinsStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = A03CF3CB299ACB0E0056359F /* CoinsStore.swift */; };
+		A03CF3CE299ACB2B0056359F /* GlobalStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = A03CF3CD299ACB2B0056359F /* GlobalStore.swift */; };
+		A03CF3D1299AD67C0056359F /* ListCoinDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = A03CF3D0299AD67C0056359F /* ListCoinDataProvider.swift */; };
 		A07BF43C2999A5B600971177 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A07BF43B2999A5B600971177 /* AppDelegate.swift */; };
 		A07BF43E2999A5B600971177 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A07BF43D2999A5B600971177 /* SceneDelegate.swift */; };
 		A07BF4402999A5B600971177 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A07BF43F2999A5B600971177 /* ViewController.swift */; };
@@ -27,6 +30,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A03CF3CB299ACB0E0056359F /* CoinsStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinsStore.swift; sourceTree = "<group>"; };
+		A03CF3CD299ACB2B0056359F /* GlobalStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalStore.swift; sourceTree = "<group>"; };
+		A03CF3D0299AD67C0056359F /* ListCoinDataProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListCoinDataProvider.swift; sourceTree = "<group>"; };
 		A07BF4382999A5B600971177 /* MarketCoins.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MarketCoins.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A07BF43B2999A5B600971177 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A07BF43D2999A5B600971177 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -59,6 +65,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A03CF3CF299AD64D0056359F /* CoinsDataProvider */ = {
+			isa = PBXGroup;
+			children = (
+				A03CF3D0299AD67C0056359F /* ListCoinDataProvider.swift */,
+			);
+			path = CoinsDataProvider;
+			sourceTree = "<group>";
+		};
 		A07BF42F2999A5B600971177 = {
 			isa = PBXGroup;
 			children = (
@@ -103,6 +117,7 @@
 		A07BF4502999A8AE00971177 /* DataProvider */ = {
 			isa = PBXGroup;
 			children = (
+				A03CF3CF299AD64D0056359F /* CoinsDataProvider */,
 				A07BF45C2999BBA700971177 /* NetworkRepository */,
 				A07BF45D2999BC7000971177 /* GenericDataProvider.swift */,
 			);
@@ -152,6 +167,8 @@
 			isa = PBXGroup;
 			children = (
 				A07BF4642999BE2F00971177 /* GenericStore.swift */,
+				A03CF3CB299ACB0E0056359F /* CoinsStore.swift */,
+				A03CF3CD299ACB2B0056359F /* GlobalStore.swift */,
 			);
 			path = Store;
 			sourceTree = "<group>";
@@ -230,12 +247,15 @@
 				A07BF4572999B77C00971177 /* MarketChartModel.swift in Sources */,
 				A07BF4532999AA5200971177 /* CoinModel.swift in Sources */,
 				A07BF46C2999C3D900971177 /* CoinsRouter.swift in Sources */,
+				A03CF3D1299AD67C0056359F /* ListCoinDataProvider.swift in Sources */,
 				A07BF46E2999C3F000971177 /* GlobalRouter.swift in Sources */,
 				A07BF4592999B7FE00971177 /* GraphicDataModel.swift in Sources */,
 				A07BF4652999BE2F00971177 /* GenericStore.swift in Sources */,
 				A07BF4402999A5B600971177 /* ViewController.swift in Sources */,
 				A07BF4632999BCED00971177 /* API.swift in Sources */,
 				A07BF43C2999A5B600971177 /* AppDelegate.swift in Sources */,
+				A03CF3CC299ACB0E0056359F /* CoinsStore.swift in Sources */,
+				A03CF3CE299ACB2B0056359F /* GlobalStore.swift in Sources */,
 				A07BF4682999C15C00971177 /* Extensions.swift in Sources */,
 				A07BF4552999ADFE00971177 /* CurrentDataModel.swift in Sources */,
 				A07BF45B2999B89300971177 /* GlobalModel.swift in Sources */,
